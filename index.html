@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dawid Orpel</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header starts -->
+<section>
+<!-- nav bar start -->
+    <nav>
+<!-- Logo -->
+    <div class="logo">
+        <img src="face-nav.jpg" alt="">
+        <i class="fa-solid fa-code" id="logo"> .DEV</i>
+    </div>
+<!-- Logo --> 
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button>Contact Me</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+      
+    </nav>
+<!-- section main starts -->
+    <section class="main" id="main">
+        <div class="left">
+            <h5>Hey, I am Dawid</h5>
+            <h3>I'm <span>Web developer</span> and beginner programmer. </h3>
+            <p>
+                On weekends, I spend time at the university studying part-time, and during the week I try to implement the knowledge I acquired during my studies in a practical way.
+            </p>
+            <button>Get In Touch</button>
+        </div>
+    
+    
+        <!--skills icin starts -->
+            
+        <div class="right">
+            <img src="portfolio.jpg" alt="">
+        </div>
+        
+        
+    </section>
+    <!-- section main ends -->
+        <!--skills icin ends -->
+
+<!-- header ends -->
+<!--article start skills-->
+    <article class="skills" id="skills">
+        <h5>My Skills</h5>
+        <section class="skills-icons">
+            <div class="skill-information">
+                <i class="fa-brands fa-js" id="Javascript">Javascript</i>
+                <p> <progress value="65" max="100"></p>
+            </div>
+            <div class="skill-information">
+                <i class="fa-brands fa-bootstrap" id="Bootstrap">Bootstrap</i>
+                <p> <progress value="82" max="100"></p>
+            </div>
+            <div class="skill-information">
+                <i class="fa-brands fa-css3" id="CSS">CSS</i>
+                <p> <progress value="85" max="100"></p>
+            </div>
+            <div class="skill-information">
+                <i class="fa-brands fa-html5" id="HTML5"> HTML5</i>
+                <p> <progress value="90" max="100"></p>
+            </div>
+            <div class="skill-information">
+                <i class="fa-brands fa-php" id="PHP">PHP</i>
+                <p> <progress value="60" max="100"></p>
+            </div>
+            <div class="skill-information">
+                <i class="fa-brands fa-sass" id="SASS">SASS</i>
+                <p> <progress value="70" max="100"></p>
+            </div>
+            <div class="skill-information">
+                <i class="fa-solid fa-database" id="SQL">SQL</i>
+                <p> <progress value="90" max="100"></p>
+            </div>
+            <div class="skill-information">
+                <i class="fa-brands fa-python" id="PYTHON">PYTHON</i>
+                <p> <progress value="20" max="100"></p>
+            </div>
+        </section>
+    </article>
+<!--article end skills-->
+
+    <article class="about" id="about">
+        <section class="left">
+            <img src="face-nav.jpg" >
+        </section>
+        <section class="right">
+            <h3>About Me</h3>
+            <p>
+                I am a young, inspiring programming enthusiast. I spend a lot of time acquiring knowledge and developing my practical programming skills. On weekends, I spend time at the university studying part-time. In my free time, I really like working in CSS, JS and PHP.
+                I am an ambitious student who works hard on my development.
+            </p>
+            <p>
+                Creating websites is satisfying, I can learn something new with each new project. My development is my priority, in the future I would like to become one of the more talented programmers.
+            </p>
+        </section>
+    </article>
+
+    <article class="portfolio" id="portfolio">
+        <header class="header">
+            <section class="info">
+                <h5>Get in touch my project</h5>
+                <button><a href="https://github.com/dawidorpel"><i class="fa-brands fa-github">  Visit My Github </i></a></button>
+            </section>
+        </header>
+        <section class="portfo-items">
+            <div class="item">
+                <img src="adminDashboard.png" >
+                <div class="info">
+                    <h5>admin dashboard</h5>
+                    <p>
+                       Responsive admin dash board , dark mode and interacitve menu (navbar).
+                    </p>
+                    <a href="https://dawidorpel.github.io/resposible_dashboard/"> Check out project <i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="game-2048.png" >
+                <div class="info">
+                    <h5>game-2048</h5>
+                    <p>
+                        Game 2048 created in java script. Have fun !
+                    </p>
+                    <a href="https://dawidorpel.github.io/game_2048/"> Check out project <i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="porftolio pizzeria.png" >
+                <div class="info">
+                    <h5>Menu Pizzeria</h5>
+                    <p>
+                       This is my first site which resembles a pizza website.
+                    </p>
+                    <a href="https://dawidorpel.github.io/pizzeria-porfolio/"> Check out project <i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+        </section>
+    </article>
+
+<section id="contact">
+    <h1 class="section-heading">Let's work together</h1>
+    <p>Fing me on</p>
+    <p>
+        <a href="https://github.com/dawidorpel/pizzeria-porfolio"><i class="fab fa-github"> Github</i></a>
+        <a href="https://www.linkedin.com/in/dawid-orpel-b07422283/"><i class="fab fa-linkedin-in"> Linkedin</i></a>
+        <a href="#"><i class="fas fa-evelope-square"> Email</i>dawid.orpel@o2.pl</a>
+    </p>
+</section>
+<script src="https://kit.fontawesome.com/a4cfcc7878.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</section>
+</html>
