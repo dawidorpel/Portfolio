@@ -370,7 +370,10 @@ nav button#menuButton{
     gap: 8px;
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #792f9e;
+    text-shadow: 3px 3px 10px black;
+    animation-name: github;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .portfolio .header button a{
@@ -633,4 +636,11 @@ nav button#menuButton{
     50%{text-shadow: 10px 10px 10px #1fc757;}
     75%{text-shadow: 5px 5px 10px black;}
     100%{text-shadow: 10px 10px 10px #1fc757;}
+}
+@keyframes github{
+    0%{box-shadow: 5px 5px 5px #792f9e;}
+    25%{box-shadow: 5px 5px 10px white;}
+    50%{box-shadow: 5px 5px 5px #792f9e;}
+    75%{box-shadow: 5px 5px 10px white;}
+    100%{box-shadow: 5px 5px 5px #792f9e;}
 }
