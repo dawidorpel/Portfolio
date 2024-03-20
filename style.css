@@ -187,6 +187,7 @@ nav button#menuButton{
     transition: all 0.3s ease;
     color: white;
     text-shadow: 5px 5px 10px yellow;
+    
 }
 
 #Javascript:hover{
@@ -195,6 +196,9 @@ nav button#menuButton{
     color: rgb(255, 255, 0);
     cursor: pointer;
     border: white;
+    animation-name: js;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #Bootstrap{
@@ -209,6 +213,9 @@ nav button#menuButton{
     transition: all 0.3s ease;
     cursor: pointer;
     border: black;
+    animation-name: bs;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #CSS{
@@ -223,6 +230,9 @@ nav button#menuButton{
     color: rgb(0, 102, 255);
     cursor: pointer;
     border: black;
+    animation-name: css;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #HTML5{
@@ -237,6 +247,9 @@ nav button#menuButton{
     color: red;
     cursor: pointer;
     border: black;
+    animation-name: HTML;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #PHP{
@@ -251,6 +264,9 @@ nav button#menuButton{
     color:  rgb(9, 35, 150);
     cursor: pointer;
     border: black;
+    animation-name: PHP;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #SASS{
@@ -265,6 +281,9 @@ nav button#menuButton{
     color:  rgb(255, 2, 192);
     cursor: pointer;
     border: black;
+    animation-name: SASS;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #SQL{
@@ -279,6 +298,9 @@ nav button#menuButton{
     color:  rgb(255, 124, 2);
     cursor: pointer;
     border: black;
+    animation-name: SQL;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #PYTHON{
@@ -293,6 +315,9 @@ nav button#menuButton{
     color:  #1fc757;
     cursor: pointer;
     border: black;
+    animation-name: PYT;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .about{
@@ -546,16 +571,66 @@ nav button#menuButton{
     
 }
 
+@keyframes js{
+    0%{text-shadow: 10px 10px 10px yellow;}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px yellow;}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px yellow;}
+}
 
+@keyframes bs{
+    0%{text-shadow: 10px 10px 10px blue;}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px blue;}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px blue;}
+}
 
+@keyframes css{
+    0%{text-shadow: 10px 10px 10px rgb(0, 102, 255);}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px rgb(0, 102, 255);}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px rgb(0, 102, 255);}
+}
 
+@keyframes HTML{
+    0%{text-shadow: 10px 10px 10px red;}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px red;}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px red;}
+}
 
+@keyframes PHP{
+    0%{text-shadow: 10px 10px 10px  rgb(9, 35, 150);}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px  rgb(9, 35, 150);}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px  rgb(9, 35, 150);}
+}
 
+@keyframes SASS{
+    0%{text-shadow: 10px 10px 10px rgb(255, 2, 192);}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px rgb(255, 2, 192);}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px rgb(255, 2, 192);}
+}
 
+@keyframes SQL{
+    0%{text-shadow: 10px 10px 10px rgb(255, 124, 2);}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px rgb(255, 124, 2);}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px rgb(255, 124, 2);}
+}
 
-
-
-
-
-
-
+@keyframes PYT{
+    0%{text-shadow: 10px 10px 10px #1fc757;}
+    25%{text-shadow: 5px 5px 10px black;}
+    50%{text-shadow: 10px 10px 10px #1fc757;}
+    75%{text-shadow: 5px 5px 10px black;}
+    100%{text-shadow: 10px 10px 10px #1fc757;}
+}
